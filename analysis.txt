@@ -1,0 +1,14 @@
+Time Complexity Analysis:
+- Both DFS and BFS have O(V + E) time complexity
+- V = 12 vertices, E = 14 edges
+- Space complexity: O(V) for visited array
+
+Other algorithms using DFS:
+- Topological sorting
+- Cycle detection
+- Connected components
+
+Other algorithms using BFS:
+- Shortest path in unweighted graphs
+- Level order traversal
+- Bipartite graph checking
