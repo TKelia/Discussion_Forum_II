@@ -142,17 +142,3 @@ Time Complexity Analysis:
 - DFS Time Complexity: O(12 + 15) = O(27)
 - BFS Time Complexity: O(12 + 15) = O(27)
 ```
-
-## Author
-
-**Tesi Kelia**
-- GitHub: [@TKelia](https://github.com/TKelia)
-- Repository: [Discussion_Forum_II](https://github.com/TKelia/Discussion_Forum_II)
-
-## License
-
-This project is created for educational purposes as part of a data structures and algorithms course.
-
----
-
-*Last updated: September 2025*
