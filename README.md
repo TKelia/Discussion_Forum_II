@@ -31,7 +31,7 @@ The assignment uses the following undirected graph with 12 vertices:
 
 ### Graph Representation
 - **Vertices**: 12 nodes (numbered 1-12)
-- **Edges**: Multiple connections forming a complex network
+- **Edges**: 14 connections as shown in the graph
 - **Type**: Undirected graph
 - **Representation**: Can be implemented using adjacency list or adjacency matrix
 
@@ -92,16 +92,9 @@ For a graph with **V vertices** and **E edges**:
 ```
 Discussion_Forum_II/
 ├── README.md
-├── src/
-│   ├── graph.h          # Graph structure definitions
-│   ├── graph.c          # Graph implementation
-│   ├── dfs.c           # DFS algorithm implementation
-│   ├── bfs.c           # BFS algorithm implementation
-│   └── main.c          # Main program with test cases
-├── examples/
-│   └── sample_output.txt
-└── docs/
-    └── algorithm_analysis.md
+├── dfs.c           # DFS algorithm implementation
+├── bfs.c           # BFS algorithm implementation
+└── analysis.txt    # Time complexity analysis
 ```
 
 ## Getting Started
@@ -117,30 +110,25 @@ Discussion_Forum_II/
 git clone https://github.com/TKelia/Discussion_Forum_II.git
 cd Discussion_Forum_II
 
-# Compile the program
-gcc -o graph_traversal src/*.c
+# Compile DFS
+gcc -o dfs dfs.c
 
-# Run the program
-./graph_traversal
+# Compile BFS
+gcc -o bfs bfs.c
+
+# Run the programs
+./dfs
+./bfs
 ```
 
 ## Sample Output
 
 ```
-Graph Traversal Demonstration
-=============================
+DFS traversal: 1 2 5 7 4 3 6 8 10 12 11 9
+Time complexity: O(V + E) where V=12, E=14
 
-DFS Traversal starting from vertex 1:
-1 -> 2 -> 5 -> 9 -> 11 -> 12 -> 10 -> 8 -> 7 -> 4 -> 3 -> 6
-
-BFS Traversal starting from vertex 1:
-1 -> 2 -> 3 -> 5 -> 4 -> 6 -> 9 -> 7 -> 11 -> 8 -> 12 -> 10
-
-Time Complexity Analysis:
-- Vertices (V): 12
-- Edges (E): 15
-- DFS Time Complexity: O(12 + 15) = O(27)
-- BFS Time Complexity: O(12 + 15) = O(27)
+BFS traversal: 1 2 3 5 4 6 7 8 9 10 11 12
+Time complexity: O(V + E) where V=12, E=14
 ```
 
 ## Contributing
