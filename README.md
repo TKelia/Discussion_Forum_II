@@ -143,20 +143,6 @@ Time Complexity Analysis:
 - BFS Time Complexity: O(12 + 15) = O(27)
 ```
 
-## Contributing
-
-This is an academic assignment, but suggestions and improvements are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
-
-## Academic Integrity
-
-This project is submitted as part of an academic assignment. Please respect academic integrity policies when referencing or using this code.
-
 ## Author
 
 **Tesi Kelia**
